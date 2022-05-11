@@ -1,0 +1,14 @@
+Chave SSH e Token
+
+Gerar chave.
+1. Na pasta usuário do PC pelo Git bash ou terminal do Ubuntu:
+
+1) ssh-keygen -t ed25519 -C "moisesmedeiros@live.com"
+2) Entrar com SENHA
+3) cd .ssh/   (visualiza as chaves públlicas e privadas)
+4) cat id_ed25519.pub   (visualizar o conteúdo da chave via Ubuntu ou Bash)
+5) Copia o conteúdo da chave pública em setings SSH keys do github.
+6) Na mesma pasta onde a chave está, pelo terminal: 
+	6.1 eval $(ssh-agent -s)  
+	6.2 ssh-add id_ed25519
+7) Entrar com SENHA do passo 2
