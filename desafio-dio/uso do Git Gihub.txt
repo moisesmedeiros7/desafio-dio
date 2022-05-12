@@ -193,3 +193,5 @@ git merge <nome-da-branch>
 Lembrando que existem diversas outras opções de comandos e configurações, que podem ser verificadas na [documentação oficial do Git](https://git-scm.com/docs/git-config).
 
 Agora que você já conheceu os principais comandos Git, te convido a ler o próximo post dessa trilha de conhecimento: **[O que é Commit e como usar Commits Semânticos]
+
+edição aqui 
